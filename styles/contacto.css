@@ -61,6 +61,8 @@
         
         
         }
+
+        
     
     
     header {
@@ -127,15 +129,7 @@
         
     }
 
-    span {
-
-        
-        text-decoration: solid;
-        text-decoration-style: none;
-        text-emphasis: none;
-
-    }
-
+   
     #footer {
 
         text-align: center;
@@ -159,21 +153,38 @@
             font-size: var(--step--1);
 
         }
+
+        .text-main {
+
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
         
      section {
 
         margin-top: 2rem;
      }
 
-        .headNav {
+       
+          
+     .row-container-nav  {
+       
+        flex-direction: column;
+        width: 99%;
+        justify-content: center;
+        margin-top: 1rem;
+   
+       
+    }
 
-            flex-direction: column;
-        }
+    header {
 
-        span {
+        position: static;
+        background: none;
 
-            visibility: hidden;
-        }
+    }
 
         .row {
 
@@ -182,6 +193,7 @@
             font-size: var(--step--1);
             padding-left: 3px;
             padding-right: 3px;
+            margin-bottom: 1rem;
         }
 
        footer {

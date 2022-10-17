@@ -143,7 +143,7 @@ html , body {
         margin-left: auto;
         margin-right: auto;
         padding-top: 5rem;
-        padding-bottom: 10rem;
+        padding-bottom: 8rem;
    
     
     }
@@ -181,7 +181,7 @@ html , body {
 
         text-align: center;
         font-size: var(--step-5);
-        margin-bottom: 5rem;
+        margin-bottom: 4rem;
         color: whitesmoke;
     
     
@@ -189,7 +189,7 @@ html , body {
 
 section {
 
-    margin-bottom: 22rem;
+    margin-bottom: 10rem;
 
 }
 
